@@ -1,0 +1,22 @@
+{
+ "flows": [
+  {"channel": "Meta", "ad": "pov: Du hast herausgefunden, wieso JEDER Chat GPT löscht", "headline": "Your own notes, turned into exam questions.", "paywall_opens_on": "4.5 · 10,803 ratings on the German App Store and a real review", "note": "one card rated before the price"},
+  {"channel": "Meta", "ad": "Wie schreibst du ständig 1en?", "headline": "Your plan to a top grade, by exam day.", "paywall_opens_on": "their grade and exam date (“Your B+ by” the date) over one trial timeline", "note": "exam date and desired grade picked for real"},
+  {"channel": "Meta", "ad": "BRUH 5 JAHRE STUDIERT UM DAS HERAUSZUFINDEN…", "headline": "A photo of your notes. Flashcards in seconds.", "paywall_opens_on": "the five flashcards they just made", "note": "a photo of notes becomes flashcards before the price"}
+ ],
+ "prices": {"yearly": "$83.90", "monthly": "$12.99", "offer_on_close": "$59.90 a year", "trial": "3 days", "source": "US App Store In-App Purchases; the Ultra paywall in the ScreensDesign recording (May 2026)"},
+ "today": {"text": "every install meets 18 onboarding steps, a sign-up and the same Retain Ultra paywall with no close button, and the first flashcards only after it", "source": "audit_frames"},
+ "asks": ["Enter your exam date and desired grade", "On which days do you usually study?", "You are currently learning as ...?", "You are studying ...?", "How did you hear about us?"],
+ "paywall": {"headline": "Retain Ultra", "uses_answers": false},
+ "rebuild": "each Meta ad opens its own flow: one question, a first win before the price, and a paywall that opens on proof, the goal or the result, with a way out",
+ "ideas": [
+  {"n": 1, "title": "Use the date and grade they give you", "screen": "One question", "outcome": "CR +15–20%"},
+  {"n": 2, "title": "The flashcards from the ad, before the price", "screen": "First win", "outcome": "CR +10–20%"},
+  {"n": 3, "title": "Tracking, notifications, rating and account after the price", "screen": "Account", "outcome": "CR +10–15%"},
+  {"n": 4, "title": "Proof and the saving where people decide", "screen": "Paywall", "outcome": "CR +10–15%"},
+  {"n": 5, "title": "A way out of the paywall", "screen": "If they close", "outcome": "ARPU +10–15%"}
+ ],
+ "outcome": {"purchases": "+10–20%", "arpu": "+10–15%"},
+ "languages": ["en", "de", "fr"],
+ "live_url": "https://eddieatadapty.github.io/retain-cards-flow-rebuild/"
+}
